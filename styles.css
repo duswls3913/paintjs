@@ -20,12 +20,15 @@ body{
 .controls .controls_colors{
   display: flex;
   padding-top: 15px;
+  width: 350px;
+  justify-content: space-around;
 }
 
 .controls_colors .controls_color{
   width: 30px;
   height: 30px;
   border-radius: 25px;
+  border: .2px solid rgba(50, 50, 93, .11);
   box-shadow: 2px 2px 2px 1px rgba(50, 50, 93, .11);
   cursor: pointer;
 

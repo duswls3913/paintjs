@@ -1,0 +1,32 @@
+@import "reset.css";
+
+body{
+  background-color: #f6f9fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.canvas{
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 15px;
+  border: 2px solid rgba(50, 50, 93, .11);
+  box-shadow: 9px 9px 2px 1px rgba(50, 50, 93, .11);
+}
+
+.controls .controls_colors{
+  display: flex;
+  padding-top: 15px;
+}
+
+.controls_colors .controls_color{
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px 1px rgba(50, 50, 93, .11);
+  cursor: pointer;
+
+}
